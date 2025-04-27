@@ -34,8 +34,7 @@ Thumbs.db
 # Ignore IPython checkpoints
 .ipynb_checkpoints/
 
-# Ignore Jupyter Notebooks
-*.ipynb
+
 scaler_parking.pkl
 parking_rush_hour_model.pkl
 model_of_available_predictions.pkl
