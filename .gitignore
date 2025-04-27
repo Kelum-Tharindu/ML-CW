@@ -1,0 +1,42 @@
+# Ignore model files
+*.h5            # Keras models
+*.pkl           # Pickled models (general)
+*.joblib        # Joblib models
+*.pb            # TensorFlow models
+*.tflite        # TensorFlow Lite models
+*.onnx          # ONNX models
+*.sav           # Scikit-learn models
+
+# Ignore specific CSV data file
+# structured_parking_data_2024.csv
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore IPython checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter Notebooks
+*.ipynb
+scaler_parking.pkl
+parking_rush_hour_model.pkl
+model_of_available_predictions.pkl
+kmeans_parking_model.pkl
